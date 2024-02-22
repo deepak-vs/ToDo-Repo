@@ -1,0 +1,109 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+ 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+ 
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  color:white;
+  
+}
+
+h2 {
+  font-size: 1.75em;
+  color: rgb(201, 201, 1);
+}
+.icons{
+  font-size: 1.5rem;
+}
+.icons:hover{
+  transform: scale(1.25);
+}
+.edit:hover{
+  color:yellow;
+}
+.deleteIcon:hover{
+  color: red;
+}
+.completeIcon:hover{
+  color:rgb(0, 168, 53)
+}
+.editBadge{
+  width: fit-content;
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+button {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.352);
+  font-size: 1em;
+  padding:8px;
+  height: fit-content;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  outline:2px solid;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px ;
+}
+
+.color-green{
+  color:rgb(4, 122, 59);
+  border-color: greenyellow;
+}
+.color-red{
+  color: red;
+  border-color: red;
+}
+
+
+
+
+.border{
+  border:1px solid rgb(89, 19, 19);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

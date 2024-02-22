@@ -1,0 +1,10 @@
+.container{
+    margin: 10px auto;
+    max-height: 55%; 
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}

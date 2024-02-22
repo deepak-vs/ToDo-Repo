@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(64, 66, 67);
+    box-shadow: 1px 1px 10px 3px rgb(36, 35, 35);
+    
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+}
+.title-desc{
+    display: flex;
+}
